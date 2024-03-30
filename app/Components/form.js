@@ -13,7 +13,6 @@ export default function Form() {
     const submitHandler = function(e){
         e.preventDefault();
         setTaskList([...tasksList, task]);
-        console.log(tasksList);
         setTask('');
     }
     const deleteHandler = function(i){
